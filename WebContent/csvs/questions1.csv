@@ -1,0 +1,9 @@
+NULL,FALSE,Which of the following function sets first n characters of a string to a given character?,FALSE,strinit(),FALSE,strnset(),FALSE,strset(),FALSE,strcset(),1,1,1,4
+NULL,FALSE,Which of the following type of class allows only one object of it to be created?,FALSE,Virtual class,FALSE,Abstract class,FALSE,Singleton class,FALSE,Singleton class,1,1,2,2
+NULL,FALSE,Which of the following is not a type of constructor?,FALSE,Copy constructor,FALSE,Friend constructor,FALSE,Default constructor,FALSE,Parameterized constructor,2,1,3,4
+NULL,FALSE,Which of these keywords is used to refer to member of base class from a sub class?,FALSE,Virtual class,FALSE,super,FALSE,this,FALSE,none of the mentioned,1,2,5,4
+NULL,FALSE,Which of these is correct way of inheriting class A by class B?,FALSE,class B  class A {},FALSE,class B inherits class {},FALSE,class B extends {},FALSE,class B extends class A {},3,2,6,2
+NULL,FALSE,A class member declared protected becomes member of subclass of which type?,FALSE,public member,FALSE,private member,FALSE,protected member,FALSE,static member,1,2,7,4
+NULL,FALSE,Which keyword is used by method to refer to the object that invoked it?,FALSE,import,FALSE,catch,FALSE,abstract,FALSE,this,2,1,1,1
+NULL,FALSE,is garbage collection is present in c++?,FALSE,yes,FALSE,no,1,2,1,1,,,,
+NULL,FALSE,choose programming languages?select more than one answer,FALSE,C+AC0-programming,FALSE,physics,FALSE,java,FALSE,chemistry,1,2,5,10

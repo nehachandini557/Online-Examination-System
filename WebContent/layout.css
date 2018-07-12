@@ -1,0 +1,243 @@
+@CHARSET "UTF-8";
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+#header {
+	height: 10%;
+	width: 100%;
+	background-color: #00cccc;
+	text-decoration: red;
+	padding-bottom: 5%;
+	padding-top: 2%;
+	padding-right: 3%;
+}
+
+#main {
+	width: 100%;
+	height: 75%;
+	font-style: oblique;
+	background-color: white;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#main1{
+	width:73%;
+	height:75%;
+	background-color: white;
+	font-style: oblique;
+	float:right;
+	padding-left:3%;
+	padding-right:3%;
+	margin-left: 1%;
+	margin-bottom: 2%;
+	margin-right: 1%;
+	margin-top: 2%;
+}
+
+#main2{
+	width:73%;
+	height:75%;
+	background-color: white;
+	font-style: oblique;
+	float:left;
+	padding-left:3%;
+	padding-right:3%;
+	margin-left: 1%;
+	margin-bottom: 0%;
+	margin-right: 1%;
+	margin-top: 0%;
+}
+
+#main3{
+	width:65%;
+	height:75%;
+	background-color: white;
+	font-style: oblique;
+	float:right;
+	padding-left:3%;
+	padding-right:3%;
+	margin-left: 1%;
+	margin-bottom: 2%;
+	margin-right: 1%;
+	margin-top: 2%;
+}
+
+
+#navigation{
+	width:23%;
+	height:75%;
+	background-color: gray;
+	font-style: oblique;
+	float: left;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-left: 1%;
+	margin-bottom: 2%;
+	margin-right: 1%;
+	margin-top: 2%;
+}
+
+#navigation1{
+	width:23%;
+	height:75%;
+	background-color: gray;
+	font-style: oblique;
+	float: right;
+	padding-left:3%;
+	padding-right:3%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+}
+
+#content{
+	width: 100%;
+	height: 70%;
+	font-style: oblique;
+	background-color: white;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+}
+
+#footer {
+	clear:both;
+	width: 100%;
+	height: 15%;
+	font-style: oblique;
+	background-color: #00cccc;
+	text-align: center;
+}
+
+p{
+	font-size: 15px;
+}
+
+h1{
+	text-align: center;
+}
+
+b{
+	font-size: 20px;
+}
+
+b1{
+	font: bolder;
+	font-size: 20px;
+}
+
+b2{
+	float: none;
+}
+
+@media screen and (min-width: 768px) {
+	.modal:before {
+		display: inline-block;
+		vertical-align: middle;
+		content: " ";
+		height: 100%;
+	}
+}
+th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.modal {
+	text-align: center;
+	padding: 0 !important;
+}
+
+.modal-dialog {
+	display: inline-block;
+	text-align: center;
+	submit: center;
+	vertical-align: middle;
+}
+
+.modal-footer {
+	display: inline-block;
+	text-align: center;
+	submit: center;
+	vertical-align: middle;
+}
+
+.dropdown-menu {
+  left:50%;
+  right:auto;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, 0);
+  margin-top:-5%;
+  width: auto;
+}
+
+.dropdown{
+	text-align:center;
+}
+
+.btn {
+	margin: 2% 2%;
+	margin-right:2%;
+	margin-left:2%;
+	width: auto;
+	font-family: sans-serif;
+	font-size: 18px;
+	appearance: none;
+}
+
+input[type="text"], [type="password"], [type="number"], [type="email"],[type="Date"],[type="file"] {
+	width: 250px;
+	height: 40px;
+	font-size: 20px;
+}
+
+input[type="submit"] {
+	width: 80px;
+	
+}
+
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+	
+}
+
+input[type="text"]:focus, [type="password"]:focus, [type="email"]:focus {
+	background-color: aqua;
+}

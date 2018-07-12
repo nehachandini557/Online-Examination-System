@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Online Examination:User Home Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<style>
+@import url(layout.css);
+</style>
+</head>
+<body>
+
+	<div id="container">
+		<div id="header">
+			<div class="pull-right">
+				<div class="btn">
+					<form action="HomeController">
+						<a href="HomeController?action=logout" class="btn btn-danger"
+							role="button"> Logout</a>
+					</form>
+				</div>
+			</div>
+			<h3 align="center" style="color: white">Online ExaminationSystem</h3>
+		</div>
+		<div id="content">
+			<div id="main1"></div>
+			<div id="navigation">
+				<br> <br> <a href="TestController?action=view_tests"
+					class="btn btn-info btn-block" role="button" value="UserTests">View
+					Tests</a><br> <a href="TestController?action=view_reports"
+					class="btn btn-info btn-block" role="button" value="UserReport">View
+					Report</a><br> <br>
+			</div>
+
+
+		</div>
+	</div>
+	<div id="footer">
+		<br> <br>
+		<P>Copyright &copy; Online Examination System</P>
+		<br> <br>
+	</div>
+	</div>
+</body>
+</html>
